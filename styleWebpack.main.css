@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Playfair';
+    src: url(8c8d2f742833cf9cb110.ttf) format('ttf'),
+    url(07e15a7da4b5f2f06387.ttf) format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    /* background-image: url('./images/background.jpg'); */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+img {
+    height: 60px;
+    width: auto;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+    gap: 50px;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    font-size: 1.1rem;
+    
+}
+
+li:hover {
+    background-color: white;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+nav {
+    background-color:rgba(0, 0, 0, 0.523);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+main {
+    display: flex;
+}
+
+main > * {
+    flex: 1;
+}
+
+main p, main h3, main h5 {
+    margin: 25px;
+}
+
+.image-container {
+    background-image: url(25620d67ab78048cb037.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
