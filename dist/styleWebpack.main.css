@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Playfair';
-    src: url('./fonts/PlayfairDisplaySC-Regular.ttf') format('ttf'),
-    url('./fonts/PlayfairDisplaySC-Black.ttf') format('ttf');
+    src: url(8c8d2f742833cf9cb110.ttf) format('ttf'),
+    url(07e15a7da4b5f2f06387.ttf) format('ttf');
     font-weight: 600;
     font-style: normal;
 }
@@ -93,7 +93,7 @@ main p, main h3, main h5 {
 }
 
 .image-container {
-    background-image: url("./images/coffee.jpg");
+    background-image: url(25620d67ab78048cb037.jpg);
     height: 400px;
     background-repeat: no-repeat;
 }
@@ -103,3 +103,4 @@ main p, main h3, main h5 {
     justify-content: space-evenly;
     margin-top: 50px;
 }
+
